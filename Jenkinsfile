@@ -1,4 +1,4 @@
-def COLOR = ['SUCCESS': 'good', 'FAILURE': 'danger' 'UNSTABLE': 'danger', 'ABORTED': 'danger']
+def COLOR = ['SUCCESS': 'good', 'FAILURE': 'danger', 'UNSTABLE': 'danger', 'ABORTED': 'danger']
 pipeline {
     agent {
         docker {
